@@ -1,0 +1,28 @@
+[mods]
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All rights reserved"
+
+[[mods]]
+modId="tntbow"
+version="${file.jarVersion}"
+displayName="TNT Bow Mod"
+credits="EnderDevelopment"
+authors="EnderDevelopment"
+description='''
+A mod that adds a TNT Bow to Minecraft.
+'''
+
+[[dependencies.tntbow]]
+modId="forge"
+mandatory=true
+versionRange="[40,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tntbow]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2,1.19)"
+ordering="NONE"
+side="BOTH"
